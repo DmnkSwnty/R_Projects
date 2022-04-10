@@ -1,5 +1,6 @@
 
 
-fact = function(input){input = readline(prompt="Please input your number") if (input == 0){return(1)} else return (fact(input - 1) * input)}
+fact = function(x){x = readline(prompt="Insert your number")
+if (x == 0){return (1)}else(return(fact(x-1) * x))}
 
 fact(input)
